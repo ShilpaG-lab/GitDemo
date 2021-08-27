@@ -1,0 +1,16 @@
+package com.systest.nmsTest;
+
+import org.testng.annotations.Test;
+
+public class Test1 {
+	
+	@Test
+	public void testMethod1() {
+		System.out.println("i m shilpa");
+	}
+
+	@Test
+	public void childMethod() {
+		System.out.println("child method");
+	}
+}

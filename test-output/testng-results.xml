@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="651" started-at="2021-08-27T12:47:04 IST" finished-at="2021-08-27T12:47:05 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="651" started-at="2021-08-27T12:47:04 IST" finished-at="2021-08-27T12:47:05 IST">
+      <class name="com.systest.nmsTest.ReadingDataTest">
+        <test-method status="PASS" signature="VaidateData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.systest.nmsTest.ReadingDataTest@184f6be2]" name="VaidateData" duration-ms="8" started-at="2021-08-27T12:47:05 IST" data-provider="getNMSData" finished-at="2021-08-27T12:47:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NMS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TESTUSER]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VaidateData -->
+      </class> <!-- com.systest.nmsTest.ReadingDataTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
